@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "03499FD9-2E4C-44DC-9F94-6DF4273DD16B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A8D20DC-7CFD-47C6-B6B9-6323C16E36C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AkongHIo/View Controller/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "RegisterViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5A8D20DC-7CFD-47C6-B6B9-6323C16E36C8 - 18fa866411863fb6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AkongHIo.RegisterViewController.usernameTxt.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "AkongHIo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prk/Desktop/AkongHIo/AkongHIo/View%20Controller/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "5A8D20DC-7CFD-47C6-B6B9-6323C16E36C8 - ba9729c7da04e3aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AkongHIo.RegisterViewController.usernameTxt.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "AkongHIo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prk/Desktop/AkongHIo/AkongHIo/View%20Controller/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "5A8D20DC-7CFD-47C6-B6B9-6323C16E36C8 - acb0bcea38eaa4bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AkongHIo.RegisterViewController.usernameTxt.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "AkongHIo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prk/Desktop/AkongHIo/AkongHIo/View%20Controller/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "5A8D20DC-7CFD-47C6-B6B9-6323C16E36C8 - 30a0ef12b6157e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AkongHIo.RegisterViewController.usernameTxt.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AkongHIo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prk/Desktop/AkongHIo/AkongHIo/View%20Controller/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "5A8D20DC-7CFD-47C6-B6B9-6323C16E36C8 - bc53969683c21f04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AkongHIo.RegisterViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AkongHIo.RegisterViewController"
+                  moduleName = "AkongHIo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prk/Desktop/AkongHIo/AkongHIo/View%20Controller/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "5A8D20DC-7CFD-47C6-B6B9-6323C16E36C8 - 6ccb173516a638ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AkongHIo.RegisterViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AkongHIo.RegisterViewController&gt;"
+                  moduleName = "AkongHIo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prk/Desktop/AkongHIo/AkongHIo/View%20Controller/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
