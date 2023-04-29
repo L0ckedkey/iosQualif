@@ -16,14 +16,26 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var passwordTxt: UITextField!
     @IBOutlet weak var confPasswordTxt: UITextField!
     
-    var context:NSManagedObjectContext!
+    var context:NSManagedObjectContext!    
+    
+    var subscribe = true
+    
+    @IBAction func `switch`(_ sender: UISwitch) {
+        if sender.isOn{
+            subscribe = true
+        }else{
+            subscribe = false
+        }
+    }
     
     @IBAction func registerButton(_ sender: Any) {
         
         let username = usernameTxt.text as! String
         let password = passwordTxt.text as! String
         let confPassword = confPasswordTxt.text as! String
-
+        
+        
+        
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Users")
                
         request.predicate = NSPredicate(format: "username == %@", username)
@@ -49,7 +61,7 @@ class RegisterViewController: UIViewController {
                        
                        newUser.setValue(username, forKey: "username")
                        newUser.setValue(password, forKey: "password")
-                    
+                       newUser.setValue(subscribe, forKey: "newspaper")
                        print("Register Success")
                        
                        if let nextView = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") {
@@ -76,7 +88,6 @@ class RegisterViewController: UIViewController {
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         context = appDelegate.persistentContainer.viewContext
-
         // Do any additional setup after loading the view.
     }
 

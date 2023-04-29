@@ -21,6 +21,7 @@
 		052CEB3C29FBE1A90076CC3F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052CEB3B29FBE1A90076CC3F /* LoginViewController.swift */; };
 		052CEB3E29FBE57F0076CC3F /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052CEB3D29FBE57F0076CC3F /* AddViewController.swift */; };
 		052CEB4029FBE9240076CC3F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052CEB3F29FBE9240076CC3F /* HomeViewController.swift */; };
+		05543B5129FD2012003A98BA /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05543B5029FD2012003A98BA /* ItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		052CEB3B29FBE1A90076CC3F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		052CEB3D29FBE57F0076CC3F /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		052CEB3F29FBE9240076CC3F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		05543B5029FD2012003A98BA /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				052CEB3B29FBE1A90076CC3F /* LoginViewController.swift */,
 				052CEB3D29FBE57F0076CC3F /* AddViewController.swift */,
 				052CEB3F29FBE9240076CC3F /* HomeViewController.swift */,
+				05543B5029FD2012003A98BA /* ItemTableViewCell.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				052CEB3C29FBE1A90076CC3F /* LoginViewController.swift in Sources */,
+				05543B5129FD2012003A98BA /* ItemTableViewCell.swift in Sources */,
 				052CEB0829FBD77F0076CC3F /* ViewController.swift in Sources */,
 				052CEB3E29FBE57F0076CC3F /* AddViewController.swift in Sources */,
 				052CEB4029FBE9240076CC3F /* HomeViewController.swift in Sources */,

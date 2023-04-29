@@ -23,13 +23,17 @@ class AddViewController: UIViewController {
         let desc = descTxt.text as! String
         let price = priceTxt.text as! String
         let category = categoryTxt.text as! String
+        print("desc : "   + desc)
+        print("name : "   + name)
+        print("price : "   + price)
+        print("cate : "   + category)
         
-        if name.isEmpty == false && desc.isEmpty == false && price.isEmpty == false && category.isEmpty == false{
+        if name.isEmpty == false && desc.isEmpty == false && price.isEmpty == false && category.isEmpty == false && name.count > 5{
             
             let entity = NSEntityDescription.entity(forEntityName: "Hio", in: context)
             let newUser = NSManagedObject(entity: entity!, insertInto: context)
             
-            newUser.setValue(name + " " + category, forKey: "name")
+            newUser.setValue(name + " " + category , forKey: "name")
             newUser.setValue(desc, forKey: "desc")
             newUser.setValue(Int(price), forKey: "price")
             
