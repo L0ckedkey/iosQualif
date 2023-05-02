@@ -9,18 +9,29 @@ import UIKit
 
 class ItemTableViewCell: UITableViewCell {
 
-    
     @IBOutlet weak var nameTxt: UITextField!
-    @IBOutlet weak var descTxt: UITextField!
+    
     @IBOutlet weak var priceTxt: UITextField!
     
-    @IBAction func UpdateButton(_ sender: Any) {
+    @IBOutlet weak var descTxt: UITextField!
+    
+    var updateHandler = {
+        
+        
+        
+    }
+    var deleteHandler = {
         
     }
     
-    @IBAction func deleteButton(_ sender: Any) {
-    
+    @IBAction func updateBtn(_ sender: Any) {
+            updateHandler()
     }
+    
+    @IBAction func deleteBtn(_ sender: Any) {
+            deleteHandler()
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
